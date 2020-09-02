@@ -1,0 +1,79 @@
+.subheader-container{
+    min-height: 30vh;
+    background-image: url("../img/sub-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin-bottom: 0;
+    position: relative;
+    color: #fff;
+
+
+    .subheader-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        .subheading{
+            color: $secondary-color;
+            opacity: 0.7;
+        }
+    }
+}
+
+.other_navbar-container{
+    .link{
+        color: $primary-color;
+    }
+    
+}
+
+.contact-page{
+    background-color: #ddd;
+    padding-bottom: 5em;
+}
+.contact-container{
+    margin: 5em auto;
+    width: 60%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 1em;
+    background: #fff;
+
+    @media #{$mobile_device}{
+      width: 90%;
+}
+
+    h3{
+        color: $primary-color;
+    }
+    .submit-btn{
+      background-color: $primary-color;
+      color: #fff;
+      &:hover{
+          opacity: 0.7;
+      }
+    }
+
+    .contact-info{
+        h6{
+            color: $font-2;
+            font-weight: bolder;
+        }
+        i{
+            font-size: 1.5em;
+        }
+        a{
+            color: $primary-color;
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+
+        hr{
+            width: 80%;
+            border-bottom: 1.5px solid #ddd;
+        }
+    }
+}

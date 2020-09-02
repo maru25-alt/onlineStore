@@ -1,0 +1,128 @@
+
+.single-post-container{
+    width: 90%;
+    margin: 5%;
+   
+
+
+    .post-details{
+
+
+        .post-title{
+            color: $font-2;
+        }
+
+        .price{
+            font-size: 2em;
+            color: $primary-color;
+        }
+        .custom-radio{
+            [type=radio] { 
+                position: absolute;
+                opacity: 0;
+                width: 0;
+                height: 0;
+              }
+              
+              /* IMAGE STYLES */
+              [type=radio] + img {
+                cursor: pointer;
+              }
+              
+              /* CHECKED STYLES */
+              [type=radio]:checked + img {
+                outline: 2px solid $primary-color;
+              }
+              .img{
+                 outline: 1px solid $font-2;
+                  width:  10rem;
+                  padding: 0.5em;
+                  border-width: 0.5em;
+                  text-align: center;
+
+              }
+                /* IMAGE STYLES */
+                [type=radio] + .img {
+                    cursor: pointer;
+                  }
+                  
+                  /* CHECKED STYLES */
+                  [type=radio]:checked + .img {
+                    outline: 2px solid $primary-color;
+                  }
+            
+        }
+        .label{
+            font-weight: 600;
+            color: $font-2;
+        }
+        
+        .btn{
+            width: 10em;
+            border: 2px solid;
+        }
+
+        .cart-btn{
+            border: 2px solid $primary-color;
+            background-color: transparent;
+            color: $primary-color;
+            &:hover{
+                color: #fff;
+                background-color: $primary-color;
+            }
+        }
+        .order-btn{
+            color: #fff;
+            background-color: $primary-color;
+         
+
+            &:hover{
+                border: 2px solid $primary-color;
+                background-color: transparent;
+                color: $primary-color;
+            }
+        }
+
+        .like-btn{
+            color: $primary-color;
+            .fas{
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+
+.comment-container{
+    h4{
+        color: $font-2;
+    }
+    .comment-btn{
+        background-color: $primary-color;
+        color: #fff;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+
+    .avatar{
+        border-radius: 50%;
+        background-color: $primary-color;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 2.5em;
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    // .comments{
+    //     .comment{
+    //         .a
+    //     }
+    // }
+
+}

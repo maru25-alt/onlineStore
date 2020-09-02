@@ -1,0 +1,23 @@
+export const LoginString = {
+    ID: 'id',
+    PhotoURL: 'PhotoURL',
+    Name : "name",
+    Email: "email",
+    CreatedAt: "createdAt",
+    Telephone: "telephone",
+    Telephone2: "telephone2",
+    Address: "address",
+    BillingAdress: "billingAdress",
+    City: "city",
+    Country: "country",
+    Cart: "cart",
+    Messages: "messages",
+    Orders: "orders",
+    Payments:"payments",
+    Description: "",
+    FirebaseDocumentId: "docid",
+    CurentUserDocKey: '',
+    UpLoadChange: "uploadChange",
+    AdminUID: "adminId",
+    AdimiDocID: "admindocID"
+}
