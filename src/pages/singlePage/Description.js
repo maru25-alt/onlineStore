@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 import Increase_Decrease_Input from '../../otherComponents/Increase_Decrease_Input'
 //import {connect} from 'react-redux';
 //import { handleLike} from '../../store/actions/productsActions'
@@ -53,7 +53,7 @@ export class Description extends Component {
     }
 
     handleLike = () => {
-        this.props.handleLike(!this.state.liked)
+       // this.props.handleLike(!this.state.liked)
         this.setState({
           liked: !this.state.liked
         })

@@ -7,7 +7,7 @@ import { auth } from 'store/firebase/config';
 import { toast } from 'react-toastify';
 import {LoginString} from 'store/firebase/LoginString';
 import { db } from 'store/firebase/config';
-import {IsLoggedIn} from 'store/firebase/functions'
+
 
 
 export class Signin extends Component {
@@ -24,16 +24,12 @@ export class Signin extends Component {
            email: "",
            password: ""
         };
-        let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
+        
         if(isEmpty(this.state.email)){
             isError = true;
             errors.email = 'Email is required';
         };
-        if(!re.test(this.state.email)){
-            isError= true;
-            errors.email = "Email must be valid"
-        }
+      
         if(isEmpty(this.state.password)){
             isError = true;
             errors.password = 'Password  is required';

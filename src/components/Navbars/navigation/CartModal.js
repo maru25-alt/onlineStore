@@ -11,7 +11,7 @@ export class CartModal extends Component {
                   <div className="modal-content">
                     <div className="modal-header">
                       <h5 className="modal-title" id="exampleModalScrollableTitle">
-                        <img width="40" src={icon}></img>
+                        <img width="40" src={icon} alt="cart"></img>
                         3 Items 
                         </h5>
                       <button type="button" className="close" data-dismiss="modal" aria-label="Close">

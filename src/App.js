@@ -14,10 +14,8 @@ import Signup from './authentification/Signup';
 import Verify from './authentification/Verification';
 import ForgetPassword from './authentification/ForgetPassword';
 import ResetPassword from './authentification/ResetPassword';
-
 import AdminLayout from "layouts/Admin/Admin.js";
 import { ToastContainer } from 'react-toastify';
-import Try from './TryRoute'
 
 function App() {
     const hist = createBrowserHistory();
@@ -28,9 +26,7 @@ function App() {
                 <Router history={hist}>
 
                     <Switch >
-                    <Route  path="/try">
-                        <Try />
-                    </Route>
+                   
                     <Route  path="/about">
                         <About />
                     </Route>

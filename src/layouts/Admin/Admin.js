@@ -10,7 +10,6 @@ import {LoginString} from 'store/firebase/LoginString';
 import img from 'assets/img/user.png'
 
 import logo from "assets/img/icon.png";
-import {auth} from '../../store/firebase/config'
 import {IsLoggedIn} from 'store/firebase/functions'
 var ps;
 

@@ -22,21 +22,21 @@ export class Footer extends Component {
                               <h6>Our Information</h6>
                            
                               <div className='d-flex flex-column'>
-                              <a href="#">Terms and Conditions</a>
-                              <a href="#">Delivery Information</a>
-                              <a href="#">About Us</a>
-                              <a href="#">Contact Us</a>
+                              <a href="/">Terms and Conditions</a>
+                              <a href="/">Delivery Information</a>
+                              <a href="/">About Us</a>
+                              <a href="/">Contact Us</a>
                               </div>
                             </div>
                             <div className="col-sm-6 col-md-4">
                                 <h6>My Account</h6>
                                
                                 <div className='d-flex flex-column'>
-                                <a href="#">My Cart</a>
-                                <a href="#">My Account</a>
-                                <a href="#">Order History</a>
-                                <a href="#">Returns</a>
-                                <a href="#">Newsletter</a>
+                                <a href="/">My Cart</a>
+                                <a href="/">My Account</a>
+                                <a href="/">Order History</a>
+                                <a href="/">Returns</a>
+                                <a href="/">Newsletter</a>
                                 </div>
                             </div>
                         </div>
@@ -44,11 +44,11 @@ export class Footer extends Component {
                         <div className='row'>
                             <div className='col-md-5 col-sm-12'>
                             <div className="float social-links">
-                                <a href="#"> <i className="fab fa-facebook " ></i> </a>
-                                <a href="#"> <i className="fab fa-twitter " ></i> </a>
-                                <a href="#"> <i className="fab fa-google-plus " ></i> </a>
-                                <a href="#"> <i className="fab fa-instagram " ></i> </a>
-                                <a href="#"> <i className="fab fa-youtube " ></i> </a>
+                                <a href="https://www.facebook.com/rudo.mapfumba"> <i className="fab fa-facebook " ></i> </a>
+                                <a href="https://twitter.com/MapfumbaRudo"> <i className="fab fa-twitter " ></i> </a>
+                                <a href="https://twitter.com/MapfumbaRudo"> <i className="fab fa-google-plus " ></i> </a>
+                                <a href="https://www.instagram.com/mapfurudo/"> <i className="fab fa-instagram " ></i> </a>
+                                <a href="https://twitter.com/MapfumbaRudo"> <i className="fab fa-youtube " ></i> </a>
                             </div>
                             </div>
                             <div className='col-md-6 col-sm-12 subceribe-container'>

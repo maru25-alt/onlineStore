@@ -9,12 +9,12 @@ export class Adverting extends Component {
                 <div className="d-flex flex-column ">
                    <div className="animate__animated animate__heartBeat animate__delay-1s" >
                        <div className="card ">
-                          <img className="img-fluid" height="1"  src={img} alt='picture'></img>
+                          <img className="img-fluid" height="1"  src={img} alt='carousel'></img>
                        </div> 
                     </div>
                     <div  className="animate__animated animate__heartBeat animate__delay-1s" >
                        <div className="card ">
-                          <img className="img-fluid" src={img} alt='picture'></img>
+                          <img className="img-fluid" src={img} alt='carousel'></img>
                        </div> 
                     </div>
                    

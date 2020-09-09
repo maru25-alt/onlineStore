@@ -1,4 +1,4 @@
-import{SIGN_UP, SIGN_OUT, SIGN_IN, ISLOGGED_IN} from '../actions/types'
+import{ISLOGGED_IN} from '../actions/types'
 
 const intialState = {
     user : null

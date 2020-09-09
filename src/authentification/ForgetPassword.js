@@ -70,7 +70,7 @@ export class ForgetPassword extends Component {
                      <form onSubmit={this.handleSubmit}>
                         <div className="form-group">
                             <label htmlFor="email">Email address</label>
-                            <input type="email" onChange={this.handleChange} value={this.state.email} className="form-control" id="email"/>  
+                            <input type="email" onChange={this.handleChange} value={email} className="form-control" id="email"/>  
                             {/* <input type="text" value={email} onChange={this.handleChange} className="form-control" id="email" placeholder="Enter your email address"/>   */}
                         </div>
                         {error && <span className='errors'>{error}</span>} 

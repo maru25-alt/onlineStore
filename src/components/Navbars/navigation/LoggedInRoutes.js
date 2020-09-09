@@ -11,9 +11,9 @@ export class LoggedInRoutes extends Component {
               </a>
             </li>
             <li className="nav-item">
-               <a className="nav-link text-center"  data-toggle="modal" data-target="#exampleModalScrollable">
-                <i className="fas fa-shopping-cart fa-2x"></i><br></br>
-                <span>My Cart</span>
+               <a href="/admin/cart" className="nav-link text-center"  >
+                <i className="fas fa-shopping-cart fa-2x"> <strong className="ml-2">0</strong></i><br></br>
+                <span>My Cart</span> 
               </a>
             </li>
             </>
