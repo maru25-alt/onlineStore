@@ -35,7 +35,7 @@ export class Orders extends Component {
                         <div className="card">
                             <div className="row">
                                 <div className="col-md-4 col-sm-12">
-                                   <img className="img-fluid" src={img} width="150"></img>
+                                   <img className="img-fluid" src={img} width="150" alt="product"></img>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <p>item description in details item description in details item description in details item description in details</p>
@@ -58,7 +58,7 @@ export class Orders extends Component {
                         <div className="card">
                             <div className="row">
                                 <div className="col-md-4 col-sm-12">
-                                   <img className="img-fluid" src={img} width="150"></img>
+                                   <img className="img-fluid" src={img} width="150" alt="product"></img>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <p>item description in details item description in details item description in details item description in details</p>
@@ -81,7 +81,7 @@ export class Orders extends Component {
                         <div className="card">
                             <div className="row">
                                 <div className="col-md-4 col-sm-12">
-                                   <img className="img-fluid" src={img} width="150"></img>
+                                   <img className="img-fluid" src={img} width="150" alt="product"></img>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <p>item description in details item description in details item description in details item description in details</p>

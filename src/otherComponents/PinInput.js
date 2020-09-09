@@ -30,10 +30,10 @@ export class Input extends Component {
                     type="numeric"
                     onChange={this.onChange}
                    />
-            <div className="form-group my-3">
+                       <div className="form-group my-3">
                             <button type="submit" class="btn form-button m-1">Enter</button>
                             <button className="btn btn-danger" onClick={this.onClear}>Clear</button>
-                            <a type="button" className="d-block m-1">Haven't received code. Resend Code</a>
+                            <button type="button" className="d-block m-1">Haven't received code. Resend Code</button>
                         </div>
             </div>
         )

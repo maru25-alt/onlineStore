@@ -11,7 +11,6 @@ export class Contact extends Component {
             <div className="contact-page">
                 <Navigation/>
                 <PageHeader title="Contact Us" subtitle="Contact Page" link="/contact"/>
-
                 <div className="contact-container">
                     <div className="row">
                         <div className="col-md-6 col-sm-12">
@@ -48,9 +47,9 @@ export class Contact extends Component {
                                   <hr></hr>
                                   <div>
                                       <ul className="social-media d-flex ">
-                                          <li ><a href="#" className="px-2"> <i className="fab fa-facebook " ></i> </a></li>
-                                          <li> <a href="#" className="px-2"> <i className="fab fa-twitter " ></i> </a></li>
-                                          <li> <a href="#" className="px-2"> <i className="fab fa-instagram " ></i> </a></li>   
+                                          <li ><a href="https://www.instagram.com/rudomaru25/" className="px-2"> <i className="fab fa-facebook " ></i> </a></li>
+                                          <li> <a href="https://www.instagram.com/rudomaru25/" className="px-2"> <i className="fab fa-twitter " ></i> </a></li>
+                                          <li> <a href="https://www.instagram.com/rudomaru25/" className="px-2"> <i className="fab fa-instagram " ></i> </a></li>   
                                       </ul>
                                   </div>
                               </div>

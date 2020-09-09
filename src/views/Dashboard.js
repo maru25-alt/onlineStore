@@ -32,11 +32,12 @@ class Dashboard extends React.Component {
   
   render() {
       const {email, name, createdAt, profile} = this.state;
-      const profileURL =  img ;
-      if(typeof(profile) !== null){
-          if(profile.length !== 0){
-              profileURL = profile;
-          }
+      var profileURL =  img ;
+      if((profile) !== null){
+          if(profile.length !== 0)
+            {
+                profileURL = profile;
+            }
       }
     return (
       <>

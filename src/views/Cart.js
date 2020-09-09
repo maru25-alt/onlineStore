@@ -44,7 +44,7 @@ export class Cart extends Component {
                         <tr>
                             <td className="row">
                             <div className="col-md-4 col-sm-12">
-                                <img src={img} width="100"></img>
+                                <img src={img} width="100" alt="product"></img>
                                 </div>
                             <div className="col-md-8 col-sm-12">
                                 <p>item description in details</p>
@@ -64,7 +64,7 @@ export class Cart extends Component {
                         <tr>
                             <td className="row">
                             <div className="col-md-4 col-sm-12">
-                                <img src={img} width="100"></img>
+                                <img src={img} width="100" alt="product"></img>
                                 </div>
                             <div className="col-md-8 col-sm-12">
                                 <p>item description in details</p>
@@ -84,7 +84,7 @@ export class Cart extends Component {
                         <tr>
                             <td className="row">
                             <div className="col-md-4 col-sm-12">
-                                <img src={img} width="100"></img>
+                                <img src={img} width="100" alt="product"></img>
                                 </div>
                             <div className="col-md-8 col-sm-12">
                                 <p>item description in details</p>

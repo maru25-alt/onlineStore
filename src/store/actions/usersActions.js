@@ -1,11 +1,5 @@
 import {auth, db} from '../firebase/config';
-import {SIGN_IN, 
-     SIGN_OUT,
-     SIGN_UP, 
-     ISLOGGED_IN,
-     RESET_PASSWORD,
-     GETUSERDATA
-    } from './types';
+import { ISLOGGED_IN } from './types';
 
 
 export const isUserLoggedIn = () => dispatch => {

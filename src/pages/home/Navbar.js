@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {db} from 'store/firebase/config'
+
 
 export class Navbar extends Component {
    

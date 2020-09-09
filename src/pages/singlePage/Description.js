@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 //import PropTypes from 'prop-types';
-import Increase_Decrease_Input from '../../otherComponents/Increase_Decrease_Input'
+import IncreaseDecreaseInput from '../../otherComponents/Increase_Decrease_Input'
 //import {connect} from 'react-redux';
 //import { handleLike} from '../../store/actions/productsActions'
 
@@ -60,7 +60,7 @@ export class Description extends Component {
     }
 
     componentDidMount(){
-        const { sizes, colors} = this.props.product
+        const { sizes} = this.props.product
         sizes.forEach(e =>{
 
         })
@@ -99,7 +99,7 @@ export class Description extends Component {
                           <div key={e.id} className="col custom-control custom-radio">
                                <label>
                                   <input type="radio" value={e.color} onChange={this.handleRadioChange} id={`customRadio${e.id}`} name="color" className="custom-control-input"/>
-                                  <img src={e.img} width="100" height="100"></img>
+                                  <img src={e.img} width="100" height="100" alt="product"></img>
                                   <div>{e.color}</div>
                                </label>
                           </div>
@@ -120,7 +120,7 @@ export class Description extends Component {
                                       </label>
                                     </div>
                                     <div className="col-3 offset-3">
-                                       <Increase_Decrease_Input id={e.id} value={this.state.qty}  handleChange={this.handleChange} />
+                                       <IncreaseDecreaseInput id={e.id} value={this.state.qty}  handleChange={this.handleChange} />
                                     </div>
                                     <div className="col-3">
                                        ${e.price} each

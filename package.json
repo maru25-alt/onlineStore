@@ -1,8 +1,8 @@
 {
-  "name": "black-dashboard-react",
+  "name": "onlinestore",
   "version": "1.1.0",
   "private": true,
-  "homepage": "https://demos.creative-tim.com/black-dashboard-react/#/admin/dashboard",
+  "homepage": "",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@types/react": "16.9.23",

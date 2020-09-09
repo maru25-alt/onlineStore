@@ -1,8 +1,8 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import React from 'react';
-import img from '../assets/img/fashion/carousel-1.png';
-import img2 from '../assets/img/fashion/carousel-2.png'
+//import img from '../assets/img/fashion/carousel-1.png';
+//import img2 from '../assets/img/fashion/carousel-2.png'
 import PropTypes from 'prop-types';
 
 const responsive = {
@@ -48,7 +48,7 @@ const Simple = ({ deviceType ,posts }) => {
       {posts && posts.map(e => {
         return(
           <div key={e.id} className="card  mx-3">
-             <img className="img-fluid" height="200" src={e.img}></img>
+             <img className="img-fluid" height="200" src={e.img} alt="product"></img>
           </div>
         )
       })

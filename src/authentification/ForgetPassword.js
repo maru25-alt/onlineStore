@@ -18,17 +18,17 @@ export class ForgetPassword extends Component {
    }
    handleSubmit = (e) => {
        e.preventDefault();
-       let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    //    let re = `${/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/}`;
        if(isEmpty(this.state.email)){
           this.setState({
               error: "email is required"
           })
        }
-       else if(!re.test(this.state.email)){
-        this.setState({
-            error: "enter a valid email"
-        })
-       }
+    //    else if(!re.test(this.state.email)){
+    //     this.setState({
+    //         error: "enter a valid email"
+    //     })
+    //    }
        else{
           auth.sendPasswordResetEmail(this.state.email).then(e => {
               console.log(e)
@@ -71,7 +71,7 @@ export class ForgetPassword extends Component {
                         <div className="form-group">
                             <label htmlFor="email">Email address</label>
                             <input type="email" onChange={this.handleChange} value={email} className="form-control" id="email"/>  
-                            {/* <input type="text" value={email} onChange={this.handleChange} className="form-control" id="email" placeholder="Enter your email address"/>   */}
+                           
                         </div>
                         {error && <span className='errors'>{error}</span>} 
                         <div className="form-group">

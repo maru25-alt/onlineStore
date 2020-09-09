@@ -1,6 +1,6 @@
 import React from 'react'
 import classnames from 'classnames'
-import moment from 'moment'
+//import moment from 'moment'
 
 export default function Message({send, message}) {
    

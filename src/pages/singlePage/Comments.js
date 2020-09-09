@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Comment from '../../otherComponents/Comment'
-import PropTypes from 'prop-types';
 // import {connect} from 'react-redux';
 // import {addComment} from '../../store/actions/productsActions';
 

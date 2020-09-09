@@ -3,7 +3,7 @@ import Gallery from './Gallery';
 import Description from './Description';
 import Comments from './Comments';
 import {withRouter} from 'react-router-dom'
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 import { Navigation } from 'components/Navbars/navigation/Navigation';
 import Footer from 'components/Footer/MainFooter';
 import {db} from 'store/firebase/config'
@@ -12,7 +12,7 @@ import product2 from 'assets/img/fashion/img-2.png';
 import product3 from 'assets/img/fashion/img-3.png';
 import product4 from 'assets/img/fashion/dress-1.jpg';
 import Loading from 'otherComponents/Loading'
-import { LoginString } from 'store/firebase/LoginString';
+//import { LoginString } from 'store/firebase/LoginString';
 
 export class SinglePostPage extends Component {
     state = {
@@ -20,7 +20,7 @@ export class SinglePostPage extends Component {
         isLoading: true
     }
     componentWillMount(){
-      var product = {}
+     // var product = {}
       db.collection("posts")
        .doc(this.props.match.params.id)
        .get()
@@ -34,7 +34,7 @@ export class SinglePostPage extends Component {
     }
     render() {
        const {comments} = this.state.product;
-       const {product, isLoading} = this.state
+       const { isLoading} = this.state
        const images= [
         { 
           original:product1,

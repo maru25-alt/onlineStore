@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import bg from '../../assets/img/bg-1.jpg';
 //import {connect} from 'react-redux';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 import {carousel} from  '../../data/products'
 
 export class Carousel extends Component {
@@ -16,7 +16,7 @@ export class Carousel extends Component {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={bg}  className="d-block img-fluid w-100 " alt="..."/>
+                        <img src={bg}  className="d-block img-fluid w-100 " alt="product"/>
                         <div className="carousel-caption  d-block">
                             <div className='row'>
                             <div className="col-xl-6 col-md-4 col-xs-6 animate__animated animate__backInDown">
@@ -26,7 +26,7 @@ export class Carousel extends Component {
                                 <a  href={firstSlide.link} className="btn  order-btn">Buy Now</a>
                             </div>
                             <div className="col-xl-6 col-md-8 d-none d-sm-block animate__animated animate__bounceInRight " >
-                                <img className="img-fluid" src={firstSlide.img} alt="photo"></img>
+                                <img className="img-fluid" src={firstSlide.img} alt="product"></img>
                             </div>
                             </div>
                             
@@ -35,7 +35,7 @@ export class Carousel extends Component {
                     {carousel && carousel.map(e => {
                         return(
                             <div className="carousel-item " key={e.id}>
-                                 <img src={bg}  className="d-block img-fluid w-100 " alt="..."/>
+                                 <img src={bg}  className="d-block img-fluid w-100 " alt="product"/>
                                 <div className="carousel-caption  d-block">
                                 <div className='row'>
                                 <div className="col-xl-6 col-md-4 col-xs-6 animate__animated animate__backInDown">
@@ -45,7 +45,7 @@ export class Carousel extends Component {
                                     <a href={e.link}className="btn  order-btn">Buy Now</a>
                                 </div>
                                 <div className="col-xl-6 col-md-8 d-none d-sm-block animate__animated animate__bounceInRight " >
-                                    <img src={e.img} className="img-fluid" alt="photo"></img>
+                                    <img src={e.img} className="img-fluid" alt="product"></img>
                                 </div>
                             </div>
                             
@@ -73,8 +73,8 @@ export class Carousel extends Component {
 //     posts: PropTypes.array.isRequired
 //   };
 
-const mapStateToProps = (state) => ({
-    posts: state.productsReducer.carousel
-})
+// const mapStateToProps = (state) => ({
+//     posts: state.productsReducer.carousel
+// })
 
 export default (Carousel)
