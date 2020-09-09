@@ -28,6 +28,7 @@
     "react-toastify": "^6.0.8",
     "reactstrap": "8.4.1",
     "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
     "ua-parser-js": "^0.7.21",
     "uuidv4": "^6.2.3"
   },
